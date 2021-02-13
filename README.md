@@ -13,7 +13,7 @@ generate a JARM fingerprint for a domain or list of domains
 _Cargo.toml_
 ```toml
 [dependencies]
-jarm_rs = "0.1.1"
+jarm_rs = "0.1.3"
 ```
 
 ### example
