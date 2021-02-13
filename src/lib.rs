@@ -45,7 +45,8 @@ mod tests {
 
     #[test]
     fn generate_jarm_fingerprint() -> Result<(), Box<dyn std::error::Error>> {
-        let cnn_fingerprint = "29d29d00029d29d21c29d29d29d29d7803e63b02b0ffde37ab35a15e335653";
+        let cnn_fingerprint: &str =
+            "29d29d00029d29d21c29d29d29d29d7803e63b02b0ffde37ab35a15e335653";
 
         assert_eq!(get_jarm_fingerprint("cnn.com")?, cnn_fingerprint);
         Ok(())
