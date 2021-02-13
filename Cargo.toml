@@ -3,8 +3,16 @@ name = "jarm_rs"
 version = "0.1.0"
 authors = ["waymobetta <waymobetta@protonmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+repository = "https://github.com/waymobetta/jarm_rs"
+description = "generate a JARM fingerprint for a domain or list of domain"
+homepage = "https://github.com/waymobetta/jarm_rs"
+documentation = ""
+license = "MIT"
+readme = "README.md"
+keywords = ["JARM"]
 
 [dependencies]
 error-chain = "0.12.4"
+
+[badges]
+maintenance = { status = "experimental" }
