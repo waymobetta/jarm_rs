@@ -1,6 +1,6 @@
 use std::{error::Error, process::Command};
 
-// private function to get jarm fingerprint for domain
+// public function to get jarm fingerprint for domain
 pub fn get_jarm_fingerprint(domain: &str) -> Result<String, Box<dyn Error>> {
     // execute JARM.py in subprocess
     let output = Command::new("python3")
