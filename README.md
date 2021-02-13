@@ -13,6 +13,9 @@ cargo run --example main
 
 ![EXAMPLE](https://user-images.githubusercontent.com/17755587/107860883-d2be4780-6df6-11eb-8dda-61b11a8bbe9c.png)
 
+### notes
+- code likely has much room for improvement
+
 ### resources
 - official [JARM](https://github.com/salesforce/jarm) repository from Salesforce
 
