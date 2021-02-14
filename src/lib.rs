@@ -1,8 +1,8 @@
 use std::{error::Error, process::Command};
 
 // public function to get jarm fingerprint for domain
-pub fn get_jarm_fingerprint(domain: &str) -> Result<String, Box<dyn Error>> {
-    // execute JARM.py in subprocess
+pub fn fingerprint(domain: &str) -> Result<String, Box<dyn Error>> {
+    // execute jarm.py in subprocess
     let output = Command::new("python3")
         .args(&["jarm.py", domain])
         .output()?;
@@ -48,7 +48,7 @@ mod tests {
         let cnn_fingerprint: &str =
             "29d29d00029d29d21c29d29d29d29d7803e63b02b0ffde37ab35a15e335653";
 
-        assert_eq!(get_jarm_fingerprint("cnn.com")?, cnn_fingerprint);
+        assert_eq!(fingerprint("cnn.com")?, cnn_fingerprint);
         Ok(())
     }
 }

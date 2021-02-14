@@ -11,7 +11,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     for domain in domains {
         println!("Generating JARM fingerprint for: {}", domain);
         // get JARM fingerprint for domain
-        let jarm_fingerprint = jarm_rs::get_jarm_fingerprint(domain)?;
+        let jarm_fingerprint = jarm_rs::fingerprint(domain)?;
 
         // add to hashmap
         domain_jarm_map.insert(domain, jarm_fingerprint);
