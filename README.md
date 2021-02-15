@@ -1,6 +1,6 @@
 ### jarm_rs
 
-[![Latest Version](https://img.shields.io/crates/v/jarm_rs.svg)](https://crates.io/crates/jarm_rs)
+[![Latest Version](https://img.shields.io/crates/v/jarm_rs.svg?logo=rust)](https://crates.io/crates/jarm_rs)
 [![Docs - Latest Version](https://docs.rs/jarm_rs/badge.svg)](https://docs.rs/jarm_rs/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/waymobetta/jarm_rs)
 
